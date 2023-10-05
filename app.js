@@ -13,5 +13,5 @@ app.use('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`O App está escutando na porta ${PORT}`);
+  console.log(`O App está escutando na porta localhost:${PORT}`);
 });
